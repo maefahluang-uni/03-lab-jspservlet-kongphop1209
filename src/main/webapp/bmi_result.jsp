@@ -6,8 +6,8 @@
 <body>
 <img src="https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.jpg?_=07167">
 <!--TODO: show bmi below -->
-<h2>Result is <%= %></h2>
+<h2>Result is <%= request.getAttribute("bmi") %></h2>
 <!--TODO: show built type below -->
-<h3>According to your BMI, you are considered <%= %></h3>
+<h3>According to your BMI, you are considered <%= request.getAttribute("build")</h3>
 </body>
 </html>
